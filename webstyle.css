@@ -1,0 +1,631 @@
+nav.navbar {
+    width: 100%;
+    border-top: 10px solid #4169E1;
+    overflow: auto;
+    background-color: #1E1E1E;
+    text-align: center;
+    font-family: 'Impact', sans-serif;
+    font-size: 17px;
+    position: fixed;
+    z-index: 1;    /* keeps it above everything else */
+}
+
+nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+/* making the navbar horizontal */
+nav.navbar li {
+    display: inline;
+}
+
+nav.navbar li a {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+nav.navbar ul li a:hover, a:active {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+/* test container for all paragraphs in the website */
+.text-container {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.6;
+    padding: 50px 0 50px 200px;
+    width: 80%;
+    max-width: 1100px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    gap: 50px;
+}
+
+/* for home.html */
+.text-container2 {
+    margin: 0 0 0 30px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-size: 18px;
+    padding: 20px 0 0 100px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 30px;
+}
+
+.text-container3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+    padding-left: 100px;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+    max-width: 1200px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-container3 p {
+    position: relative;
+    left: 120px;
+}
+
+.text-container a {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+.text-container a:hover, a:active {
+    text-decoration: underline;
+}
+
+/* image settings for the home.html */
+#intro-to-img {
+    margin-top: -40px;
+    width: 50%;
+    padding: 0;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+#pos-left-img {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    position: relative;
+    right: 30px;
+    border-radius: 6px;
+}
+
+#pos-right-img {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 80px;
+    border-radius: 6px;
+}
+
+/* the header */
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    color: white;
+    position: relative;
+    text-align: center;
+    max-width: 700px;
+    padding: 30px;
+}
+
+/* subheader containers for all subheaders that are not under the video */
+.subheader-container {
+    font-size: 23px;
+    padding: 0;
+    padding-left: 190px;
+    margin: 0;
+    color: #1E1E1E;
+}
+
+/* subheader for home.html */
+/* powerlifting */
+.subheader-container2 {
+    font-size: 23px;
+    padding: 0;
+    padding-left: 150px;
+    position: relative;
+    top: 120px;
+    margin: 0;
+    color: #1E1E1E;
+}
+
+#home-subheader-container {
+    font-size: 23px;
+    padding: 0;
+    padding-left: 190px;
+    margin: 0;
+    color: #1E1E1E;
+    position: relative;
+}
+
+/* HIIT */
+.subheader-container3 {
+    font-size: 23px;
+    padding: 0;
+    padding-left: 730px;
+    padding-top: 40px;
+    position: relative;
+    top: 70px;
+    margin: 0;
+    color: #1E1E1E;
+}
+
+/* calisthenics */
+.subheader-container4 {
+    font-size: 23px;
+    padding: 0;
+    padding-left: 830px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 80px;
+    margin: 0;
+    color: #1E1E1E;
+}
+
+/* crossfit */
+.subheader-container5 {
+    font-size: 23px;
+    padding: 0;
+    padding-left: 150px;
+    padding-top: 40px;
+    position: relative;
+    top: 80px;
+    margin: 0;
+    color: #1E1E1E;
+}
+
+
+.subheader-container-centered {
+    font-size: 23px;
+    padding: 0;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0;
+    color: #1E1E1E;
+}
+
+/* subheaders for under the video/background (difference is extra padding) */
+#subheader-under-header {
+    font-size: 23px;
+    padding: 0;
+    padding-top: 70px;
+    padding-left: 190px;
+    margin: 0;
+    color: #1E1E1E;
+}
+
+#subheader-text-container {
+    display: flex;
+    line-height: 1.6;
+    position: relative;
+    padding: 50px;
+    padding-left: 200px;
+    max-width: 900px;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* line separators for the website to seperate topics/subheaders */
+.line-separator {
+    width: 80px;
+    height: 3px;
+    background: #4169E1;
+    border: none;
+    margin: 20px auto;
+}
+
+.footer-separator {
+    width: 700px;
+    height: 1px;
+    background: black;
+    border: none;
+    margin: 40px auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Impact', sans-serif;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0;
+    width: 40%;
+    display: block;
+    position: relative;
+    padding: 0;
+}
+
+/* settings for images to be centerd under or above text */
+.centered-img {
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    display: block;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+.centered-text {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    line-height: 1.6;
+    position: static;
+    padding: 30px;
+    max-width: 900px;
+    font-size: 18px;
+}
+
+
+/* settings for h3 subheaders */
+h3.subheader-container {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    padding: 0;
+    padding-top: 45px;
+    margin: 0;
+    color: #1E1E1E;
+}
+
+/* footer settings to display my contact and socials */
+/* used flexblox to make it side by side */
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* space out sections */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    flex: 1;    /* equal width for both sections */
+    color: #4169E1;
+    font-size: 23px;
+}
+
+address {
+    font-style: normal;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+address ul {
+    list-style-type: none;
+    line-height: 2;
+    margin-top: 20px;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+address ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+address ul li a:hover, a:active {
+    text-decoration: underline;
+}
+
+footer {
+    background-image: url('images/bluegradient.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* format for citations and references */
+#references {
+    font-size: 28px;
+    padding: 0;
+    padding-top: 220px;
+    margin: 0;
+    color: #4169E1;
+    text-align: center;
+}
+
+footer ol li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: white;
+}
+
+.h1-container {
+    color: #1E1E1E;
+    padding: 0;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+figure {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+figure figcaption a {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+figure figcaption a:hover, a:active {
+    text-decoration: underline;
+}
+
+/* adjusting list settings and images */
+.list-container ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-container ul li {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-container ol li {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-container img {
+    left: 340px;
+    width: 30%;
+}
+
+.list-container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+.list-container-a {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 150px;
+}
+
+.list-container-a ul li {
+    list-style-type: none;
+}
+
+.list-container-a ul li a {
+    line-height: 2.5;
+    list-style-type: none;
+    color: #4169E1;
+    text-decoration: none;
+}
+
+.list-container-a ul li a:hover, a:active {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    line-height: 1.6;
+}
+
+/* embedded video settings */
+.embedded-video {
+    display: flex;  /* using flexblox to make the videos side by side for a nicer display */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.embedded-video iframe {
+    width: 560px;
+    height: 315px;
+    margin-bottom: 25px;
+}
+
+/* bachground settings for each page excluding home.html and 404.html */
+.background-header {
+    background-image: url('images/thegym.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.background-header2 {
+    background-image: url('images/workingout.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.background-header3 {
+    background-image: url('images/supplements.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.background-header4 {
+    background-image: url('images/gym.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.background-header header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    color: white;
+}
+
+/* 404 page settings */
+.error-404 {
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center; /* vertically centers items */
+    justify-content: center; /* horizontally centers items */
+    height: 100vh;
+    gap: 40px;
+}
+
+.error-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.error-404 p {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+}
+
+#error-text {
+    color: #4169E1;
+    font-size: 170px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#img-404 {
+    max-width: 500px;   /* image size */
+    height: auto;
+    padding: 50px;
+}
+
+/* informing the user how to return home settingfs for 404.html */
+#return-home {
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#return-home a {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+#return-home a:hover, a:active {
+    text-decoration: underline;
+}
+
+.training-section {
+    margin: 60px 0 0 130px; /* Space after line separator */
+    max-width: 1200px;
+}
+
+.training-section h3 {
+    font-size: 23px;
+    color: #1E1E1E;
+    margin-bottom: 20px;
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    gap: 40px;
+}
