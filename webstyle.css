@@ -37,50 +37,39 @@ nav.navbar ul li a:hover, a:active {
 
 /* test container for all paragraphs in the website */
 .text-container {
-    margin: 0;
     display: flex;
     align-items: flex-start;
     line-height: 1.6;
-    padding: 50px 0 50px 200px;
     width: 80%;
     max-width: 1100px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     gap: 50px;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 80%;
 }
 
 /* for home.html */
 .text-container2 {
-    margin: 0 0 0 30px;
+    margin: 0 auto;
     max-width: 400px;
     display: flex;
     align-items: center;
     line-height: 1.6;
     max-width: 1200px;
     font-size: 18px;
-    padding: 20px 0 0 100px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    left: 30px;
 }
 
 .text-container3 {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     line-height: 1.6;
-    padding-left: 100px;
-    padding-right: 0;
-    padding-top: 20px;
-    padding-bottom: 0;
     max-width: 1200px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-}
-
-.text-container3 p {
-    position: relative;
-    left: 120px;
 }
 
 .text-container a {
@@ -142,73 +131,28 @@ nav.navbar ul li a:hover, a:active {
     padding: 30px;
 }
 
-/* subheader containers for all subheaders that are not under the video */
+/* subheader containers for all subheaders */
 .subheader-container {
     font-size: 23px;
-    padding: 0;
-    padding-left: 190px;
-    margin: 0;
+    margin: 0 auto;
+    color: #1E1E1E;
+    max-width: 1150px;
+}
+
+.subheader-container-centered {
+    font-size: 23px;
+    text-align: center;
+    margin: 0 auto;
     color: #1E1E1E;
 }
 
 /* subheader for home.html */
-/* powerlifting */
-.subheader-container2 {
-    font-size: 23px;
-    padding: 0;
-    padding-left: 150px;
-    position: relative;
-    top: 120px;
-    margin: 0;
-    color: #1E1E1E;
-}
-
 #home-subheader-container {
     font-size: 23px;
-    padding: 0;
-    padding-left: 190px;
-    margin: 0;
+    margin: 0 auto;
     color: #1E1E1E;
-    position: relative;
+    max-width: 1150px;
 }
-
-/* HIIT */
-.subheader-container3 {
-    font-size: 23px;
-    padding: 0;
-    padding-left: 730px;
-    padding-top: 40px;
-    position: relative;
-    top: 70px;
-    margin: 0;
-    color: #1E1E1E;
-}
-
-/* calisthenics */
-.subheader-container4 {
-    font-size: 23px;
-    padding: 0;
-    padding-left: 830px;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    position: relative;
-    top: 80px;
-    margin: 0;
-    color: #1E1E1E;
-}
-
-/* crossfit */
-.subheader-container5 {
-    font-size: 23px;
-    padding: 0;
-    padding-left: 150px;
-    padding-top: 40px;
-    position: relative;
-    top: 80px;
-    margin: 0;
-    color: #1E1E1E;
-}
-
 
 .subheader-container-centered {
     font-size: 23px;
@@ -223,21 +167,19 @@ nav.navbar ul li a:hover, a:active {
 #subheader-under-header {
     font-size: 23px;
     padding: 0;
-    padding-top: 70px;
-    padding-left: 190px;
-    margin: 0;
+    padding-top: 50px;
+    margin: 0 auto;
     color: #1E1E1E;
+    max-width: 1150px;
 }
 
 #subheader-text-container {
     display: flex;
     line-height: 1.6;
-    position: relative;
     padding: 50px;
-    padding-left: 200px;
-    max-width: 900px;
+    max-width: 1100px;
     font-size: 18px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 /* line separators for the website to seperate topics/subheaders */
@@ -440,19 +382,12 @@ figure figcaption a:hover, a:active {
     font-family: 'Roboto', sans-serif;
 }
 
-.list-container img {
-    left: 340px;
-    width: 30%;
-}
-
 .list-container {
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    position: relative;
-    padding-left: 200px;
-    padding-bottom: 30px;
+    max-width: 1100px;
 }
 
 .list-container-a {
@@ -628,4 +563,10 @@ ul {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     gap: 40px;
+}
+
+#copyright {
+    text-align: center; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
